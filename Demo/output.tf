@@ -158,7 +158,7 @@ output "containers" {
 }
 
 
-
+/*
 ###################################### Key vault #########################
 output "key_vault_id" {
   description = "The ID of the Key Vault."
@@ -206,7 +206,7 @@ output "key_vault_private_endpoint_fqdn" {
 }
 
 
-/*
+
 output "pvt_subnet_id" {
   description = "The ID of the privateendpoint  Subnet"
   value       = module.vnet.pvt_subnet_id
