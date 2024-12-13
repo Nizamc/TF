@@ -108,6 +108,7 @@ output "workspace_id" {
   description = "The Workspace (or Customer) ID for the Log Analytics Workspace."
 }
 
+/*
 ########################## storage account ############################
 output "storage_account_id" {
   description = "The ID of the storage account."
@@ -158,7 +159,7 @@ output "containers" {
 }
 
 
-/*
+
 ###################################### Key vault #########################
 output "key_vault_id" {
   description = "The ID of the Key Vault."

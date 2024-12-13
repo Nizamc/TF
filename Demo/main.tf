@@ -40,7 +40,7 @@ module "log_analytics_workspace" {
     ServiceClass = "Gold"
   }
 }
-
+/*
 module "storage" {
   source = "./modules/storageaccount"
 
@@ -108,7 +108,7 @@ module "storage" {
     ServiceClass = "Gold"
   }
 }
-
+*/
 module "vnet" {
   source = "./modules/network"
 
